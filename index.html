@@ -15,7 +15,7 @@
   </head>
   <body class="page">
     <!-- Header -->
-    <header>
+    <header class="header">
       <a class="link" href="./index.html">
         <img
           src="./images/logo.svg"
@@ -27,34 +27,36 @@
       <nav>
         <ul class="list">
           <li>
-            <a class="link" href="#about">About</a>
+            <a class="link header-link" href="#about">About</a>
           </li>
           <li>
-            <a class="link" href="#services">Services and prices</a>
+            <a class="link header-link" href="#services">Services and prices</a>
           </li>
           <li>
-            <a class="link" href="#barbers">Barbers</a>
+            <a class="link header-link" href="#barbers">Barbers</a>
           </li>
           <li>
-            <a class="link" href="#contacts">Contacts</a>
+            <a class="link header-link" href="#contacts">Contacts</a>
           </li>
-        </ul>
-        <ul class="list">
-          <li>
-            <a class="link" href="tel:+380441111111">+38 044 111 11 11</a>
-          </li>
-          <li><a class="link" href="#contacts">Online-booking</a></li>
         </ul>
       </nav>
+      <div>
+        <a class="link header-phone" href="tel:+380441111111"
+          >+38 044 111 11 11</a
+        >
+        <button class="button button-dark" type="button">Online-booking</button>
+      </div>
     </header>
 
     <main>
       <!-- Hero -->
       <section class="hero">
         <div class="">
-          <p>A hair salon for men in Kyiv</p>
-          <h1>BarberShop</h1>
-          <p>
+          <p class="upper-title upper-title-dark">
+            A hair salon for men in Kyiv
+          </p>
+          <h1 class="hero-title">BarberShop</h1>
+          <p class="hero-text">
             We are experts in trendy men’s haircuts. We work quickly, carefly
             and with style.
           </p>
@@ -62,7 +64,7 @@
         <ul class="list">
           <li>
             <a
-              class="link"
+              class="link social-link"
               href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -72,7 +74,7 @@
           </li>
           <li>
             <a
-              class="link"
+              class="link social-link"
               href="https://www.facebook.com/"
               target="_blank"
               rel="noopener noreferrer"
@@ -104,9 +106,9 @@
           </li>
         </ul>
         <div>
-          <p>About</p>
-          <h2>Best Barbershop in your city</h2>
-          <h3>
+          <p class="upper-title upper-title-light">About</p>
+          <h2 class="title title-light">Best Barbershop in your city</h2>
+          <h3 class="sub-title sub-title-dark">
             If you want to add more confidence to your image, you should
             definitely visit us.
           </h3>
@@ -117,14 +119,18 @@
             the same wave" with clients. Therefore, we are always ready to
             improve everyone who comes to us!
           </p>
-          <button type="button">online-booking</button>
+          <button type="button" class="button button-light">
+            online-booking
+          </button>
         </div>
       </section>
 
       <!-- Services -->
       <section class="services" id="services">
-        <p>Spend your time with the best masters</p>
-        <h2>Services and prices</h2>
+        <p class="upper-title upper-title-dark">
+          Spend your time with the best masters
+        </p>
+        <h2 class="title title-dark">Services and prices</h2>
         <ul class="list">
           <li>
             <p>Men’s haircut</p>
@@ -161,7 +167,7 @@
             <p>from 200 uah.</p>
           </li>
         </ul>
-        <button type="button">online-booking</button>
+        <button type="button" class="button button-dark">online-booking</button>
       </section>
 
       <!-- Benefits -->
@@ -184,18 +190,20 @@
             <p>Gifts for regular customers</p>
           </li>
         </ul>
-        <p>Old traditional school</p>
-        <h2>¿Why people come to us?</h2>
-        <p>
+        <p class="upper-title upper-title-light">Old traditional school</p>
+        <h2 class="title title-light">¿Why people come to us?</h2>
+        <h3 class="sub-title sub-title-dark">
           Only good things are said about us. But it's better to see and feel 1
           time than read 10 times.
-        </p>
+        </h3>
       </section>
 
       <!-- Barbers-->
       <section id="barbers">
-        <p>For true enjoyers of the atmosphere</p>
-        <h2>Our barbers</h2>
+        <p class="upper-title upper-title-light">
+          For true enjoyers of the atmosphere
+        </p>
+        <h2 class="title title-light">Our barbers</h2>
         <ul class="list">
           <li>
             <img
@@ -360,7 +368,9 @@
 
       <!-- Gallery -->
       <section>
-        <p>In Latin, "barba" means "beard"</p>
+        <p class="upper-title upper-title-light">
+          In Latin, "barba" means "beard"
+        </p>
         <h2 class="visually-hidden">Gallery of works</h2>
         <ul class="list">
           <li>
@@ -404,18 +414,18 @@
 
         <!--Booking -->
         <section>
-          <h2>Online-booking</h2>
+          <h2 class="title title-dark">Online-booking</h2>
           <form>
             <input type="text" placeholder="Name*" />
             <input type="tel" placeholder="Phone*" />
             <textarea placeholder="Message"></textarea>
-            <button type="submit">send</button>
+            <button class="button button-dark" type="submit">send</button>
           </form>
         </section>
 
         <!-- Contacts -->
         <section>
-          <h2>Contacts</h2>
+          <h2 class="title title-dark">Contacts</h2>
           <address>
             <ul class="list">
               <li>
@@ -435,7 +445,7 @@
               </li>
             </ul>
           </address>
-          <p>Working hours</p>
+          <p class="upper-title">Working hours</p>
           <p>Every day from 9:00 to 22:00</p>
         </section>
       </section>
@@ -445,7 +455,7 @@
       <ul class="list">
         <li>
           <a
-            class="link"
+            class="link social-link"
             href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
@@ -455,7 +465,7 @@
         </li>
         <li>
           <a
-            class="link"
+            class="link social-link"
             href="https://www.facebook.com/"
             target="_blank"
             rel="noopener noreferrer"
