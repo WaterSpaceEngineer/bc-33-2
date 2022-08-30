@@ -21,6 +21,13 @@
 
 /* base style */
 
+.page {
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -34,31 +41,12 @@
   margin: -1px;
 }
 
-.page {
-  font-family: var(--main-font);
-  font-size: 18px;
-  line-height: 1.6;
-  letter-spacing: 0.02em;
-}
-
 .link {
   text-decoration: none;
 }
 
 .list {
   list-style: none;
-}
-
-.hero {
-  background-color: var(--primary-bg_mod-dark);
-}
-
-.services {
-    background-color: var(--primary-bg_mod-dark);
-}
-
-.connects {
-    background-color: var(--primary-bg_mod-dark);
 }
 
 .upper-title {
@@ -151,6 +139,15 @@
 .social-link:hover, .social-link:focus {
   color: var(--accent-color);
 }
+
+.font-normal {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 /* header start*/
 
 .header {
@@ -166,9 +163,23 @@
   letter-spacing: 0.1em;
 }
 
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.header-phone:hover,
+.header-phone:focus {
+    color: var(--accent-color);
+}
+
 /* header end */
 
 /* hero  start */
+
+.hero {
+  background-color: var(--primary-bg_mod-dark);
+}
 
 .hero-title {
   color: var(--secondary-txt_mod-dark);
@@ -180,7 +191,123 @@
 }
 
 .hero-text {
+  color: var(--primary-txt_mod-dark);
+
   font-size: 18px;
   line-height: 1.6;
   letter-spacing: 0.02em;
 }
+
+/* About start */
+
+.about-text {
+  color: var(--primary-txt_mod-light);
+  
+  font-size: 14px;
+  line-height: 1.86;
+}
+
+/* About end */
+
+/* Services start */
+
+.services {
+  background-color: var(--primary-bg_mod-dark);
+}
+
+.services-item {
+  color: var(--primary-txt_mod-dark);
+}
+
+/* Services end */
+
+/* Benefits start */
+
+.benefits-list {
+  color: var(--secondary-txt_mod-light);
+}
+
+.benefits-item {
+  background-color: var(--primary-bg_mod-light);
+}
+
+.benefits-num {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+}
+
+.benefits-decor {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.36;
+  color: var(--accent-color);
+}
+
+/* Benefits end */
+
+/* Barbers start */
+
+.barbers {
+  background-color: var(--primary-bg_mod-light);
+}
+
+.barbers-name {
+  color: var(--secondary-txt_mod-light);
+
+  font-size: 18px;
+  line-height: 1.39;
+}
+
+.barbers-position {
+  color: var(--accent-color);
+
+  font-size: 14px;
+  line-height: 1.36;
+}
+
+/* Barbers end */
+
+/* Gallery start */
+/* Gallery end */
+
+.connects {
+  background-color: var(--primary-bg_mod-dark);
+}
+
+/* Contacts start */
+
+.contacts-link {
+  color: var(--primary-txt_mod-dark);
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-time {
+  color: var(--primary-txt_mod-dark);
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+/* Contacts end */
+
+/* Footer start */
+
+.footer-copy {
+  color: var(--primary-txt_mod-dark);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+
+
+/* Footer end */
