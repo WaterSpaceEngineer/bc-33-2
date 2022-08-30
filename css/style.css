@@ -1,20 +1,61 @@
 :root {
-    /* Colors */
-    --accent-color: #FF6C00;
+  /* Colors */
+  --accent-color: #ff6c00;
 
-    /* Light theme */
-    --primary-txt_mod-light: #555555;
-    --secondary-txt_mod-light: #303030;
-    /* Dark theme */
-    ---primary-txt_mod-darking: rgb(157, 164, 189, 0.6);
-    ---primary-txt_mod-dark: #9DA4BD;
-    --secondary-txt_mod-dark: #ffffff;
-   
-    /* Bg colors */
-    --primary-bg_mod-light: #F7F7F7;
-    --primary-bg_mod-dark: #191C26;
+  /* Light theme */
+  --primary-txt_mod-light: #555555;
+  --secondary-txt_mod-light: #303030;
+  /* Dark theme */
+  ---primary-txt_mod-darking: rgb(157, 164, 189, 0.6);
+  ---primary-txt_mod-dark: #9da4bd;
+  --secondary-txt_mod-dark: #ffffff;
 
-    /* Fonts */
-    --main-font: 'Open Sans', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
+  /* Bg colors */
+  --primary-bg_mod-light: #f7f7f7;
+  --primary-bg_mod-dark: #191c26;
+
+  /* Fonts */
+  --main-font: 'Open Sans', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.page {
+  font-family: var(--main-font);
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.02em;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.hero {
+  background-color: var(--primary-bg_mod-dark);
+}
+
+.services {
+    background-color: var(--primary-bg_mod-dark);
+}
+
+.connects {
+    background-color: var(--primary-bg_mod-dark);
+}
+
